@@ -1,0 +1,9 @@
+.App {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    .Left, .Right {
+        height: 700px;
+        width: 400px;
+    }
+}

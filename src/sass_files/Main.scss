@@ -1,0 +1,27 @@
+//  ===== RESET AND GLOBALS ===== //
+
+// The order of imports here is important. Reset first, then globals.
+// Globals is where I my styles that apply to many locations, and don't fit in a specific category.
+
+@import "./reset.scss";
+@import "./partials/globals.scss";
+
+// ===== PARTIAL IMPORTS===== //
+
+// import all the fonts I'll use in my project into fonts
+@import "./partials/fonts.scss";
+
+// all the variables. this is where I build my site template (color pallette, etc)
+@import "./partials/variables.scss";
+
+// all the functionality of my website (including loops)
+@import "./partials/functions.scss";
+
+// blocks of code that I'll use in multiple places (ie flex-parent, flex-child, etc)
+@import "./partials/mixins.scss";
+
+// ===== COMPONENT IMPORTS ===== //
+
+// all my individual components
+@import "./components/Left.scss";
+@import "./components/Right.scss";

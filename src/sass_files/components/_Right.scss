@@ -1,0 +1,12 @@
+.Right {
+    @include flexParent;
+    background: randomColor(255,255,255) !important;
+
+    @for $i from 1 through 5 {
+        .item_#{$i} {
+            height: $i * 100px;
+            width: 30px;
+            border: 1px solid red;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@function randomColor ($maxR, $maxG, $maxB) {
+    @return rgba(
+        random($maxR),
+        random($maxG),
+        random($maxB),
+        1
+    )
+};

@@ -1,0 +1,6 @@
+@mixin flexParent($color: $secondary) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color !important;
+}
